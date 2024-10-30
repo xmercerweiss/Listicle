@@ -1,4 +1,5 @@
 import tkinter as tk
+from tkinter import ttk
 
 
 class Listicle:
@@ -10,7 +11,9 @@ class Listicle:
 
     def __init__(self):
         self._root = self._init_root()
-        self._frames = self._init_frames()
+        self._entry_frame, self._tasks_frame = self._init_frames()
+        self._populate_entry_frame()
+        self._populate_tasks_frame()
 
     def _init_root(self):
         root = tk.Tk()
@@ -24,21 +27,34 @@ class Listicle:
     def _init_frames(self):
         entry_frame = tk.Frame(
             self._root,
-            bg="red",
             height=self._ROOT_MIN_H
         )
         entry_frame.pack(
             expand=False,
-            fill="both"
+            fill=tk.BOTH
+        )
+        
+        sep = ttk.Separator(
+        self._root, 
+        orient=tk.HORIZONTAL
+        )
+        sep.pack(
+            fill=tk.X
         )
 
         tasks_frame = tk.Frame(self._root)
         tasks_frame.pack(
             expand=True,
-            fill="both"
+            fill=tk.BOTH
         )
 
         return entry_frame, tasks_frame
+
+    def _populate_entry_frame(self):
+        pass
+
+    def _populate_tasks_frame(self):
+        pass
 
     def mainloop(self):
         self._root.mainloop()
