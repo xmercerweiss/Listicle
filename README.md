@@ -23,7 +23,7 @@ $ python3 main.py
 ```
 This should open the following window:
 
-![alt text]("https://raw.githubusercontent.com/xmercerweiss/Listicle/refs/heads/main/media/gui_preview.png?token=GHSAT0AAAAAACZXNVIKYFAHTXQVVKTBLZYAZZCIF3A")
+![alt text]("https://raw.githubusercontent.com/xmercerweiss/Listicle/refs/heads/main/media/gui_preview.png")
 
 // description
 
