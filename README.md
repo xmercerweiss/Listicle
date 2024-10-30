@@ -23,7 +23,7 @@ $ python3 main.py
 ```
 This should open the following window:
 
-<img src="https://raw.githubusercontent.com/xmercerweiss/Listicle/refs/heads/main/media/gui_preview.png" width=50>
+<img src="https://raw.githubusercontent.com/xmercerweiss/Listicle/refs/heads/main/media/gui_preview.png" width=100>
 
 Enter the name of a task into the textbox, then either press enter or click the "+Add Task" button, and the item will be added to your to-do list. Tasks may be removed by simply clicking on them. Tasks cannot be reordered within the GUI, but may have their positions changed by editing the `tasks` text file directly. All data is stored in `tasks` as plaintext and is persistent between application launches. 
 
