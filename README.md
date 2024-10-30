@@ -2,7 +2,7 @@
 ### _Copyright Xavier Mercerweiss 2024, Licensed under GPLv3_
 
 ## Overview
-A quick and dirty Python application used to keep a running to-do list via a `tasks` text file. 
+A quick and dirty Python application used to keep a running to-do list via a `tasks` text file. Designed and tested exlusively for Debian systems.
 
 ## Installation
 Ensure Python 3 and Tkinter are installed and up-to-date before launching.
